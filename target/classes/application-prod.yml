@@ -1,0 +1,8 @@
+server:
+  port: 7082
+spring:
+ elasticsearch:
+  jest:
+   uris:
+    - http://41.204.8.6.222:29201
+   read-timeout: 100000
