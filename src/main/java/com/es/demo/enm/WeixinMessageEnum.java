@@ -40,7 +40,7 @@ public enum WeixinMessageEnum {
     GROUPNAME("groupName","group_name","string","群组名称",true),
     SENDERID("senderid","senderid","string","发送方id",false),
     SENDERNAME("sendername","sendername","string","发送方名称",true),
-    TYPEDM("typeDm","type_dm","string","消息类型代码",false),
+    TYPEDM("typeDm","type_dm","int","消息类型代码",false),
     DELFLAG("delFlag","del_flag","smallint","状态",true),
     DWDBATCH("dwdBatch","dwd_batch","string","批次编号",false),
     DWDSOURCE("dwdSource","dwd_source","string","数据来源",false);

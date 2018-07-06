@@ -8,12 +8,12 @@ import java.util.Map;
  */
 public enum TablesEnum {
 
-    T_PHONE_SMS("t_phone_sms","短信"),
-    T_PHONE_CALLLOG("t_phone_calllog","通话记录"),
-    T_PHONE_CONTACT("t_phone_contact","通讯录"),
-    T_WEI_XIN_MESSAGE("t_weixin_message","微信消息"),
-    T_EMAIL("t_email","邮件"),
-    T_QQ_MESSAGE("t_qq_message","qq消息")
+    T_PHONE_SMS("dwd_t_phone_sms","短信"),
+    T_PHONE_CALLLOG("dwd_t_phone_calllog","通话记录"),
+    T_PHONE_CONTACT("dwd_t_phone_contact","通讯录"),
+    T_WEI_XIN_MESSAGE("dwd_t_weixin_message","微信消息"),
+    T_EMAIL("dwd_t_email","邮件"),
+    T_QQ_MESSAGE("dwd_t_qq_message","qq消息")
     ;
 
     private TablesEnum(String code, String name) {
